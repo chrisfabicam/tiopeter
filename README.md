@@ -66,14 +66,14 @@ en el JavaScript del sitio.
 
 ## Publicar en GitHub Pages
 
-1. Subí los cambios a la rama `main`.
-2. En GitHub, abrí **Settings → Pages**.
-3. En **Build and deployment**, elegí **Deploy from a branch**.
-4. Seleccioná `main` y la carpeta `/(root)`, y guardá.
+1. En GitHub, abrí **Settings → Pages**.
+2. En **Build and deployment → Source**, elegí **GitHub Actions**.
+3. Subí los cambios a la rama `main` o ejecutá manualmente el workflow
+   **Deploy to GitHub Pages** desde la pestaña **Actions**.
 
-GitHub Pages publicará `index.html` y los archivos estáticos desde la raíz del
-repositorio. El sitio funciona bajo una ruta de proyecto de GitHub Pages y no
-requiere un proceso de build.
+El workflow publica automáticamente `index.html` y los archivos estáticos desde
+la raíz del repositorio en cada cambio a `main`. No requiere un proceso de build.
+Una vez completado, GitHub muestra la URL del sitio en **Settings → Pages**.
 
 ## Estructura
 
