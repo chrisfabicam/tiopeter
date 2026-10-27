@@ -1,0 +1,10 @@
+[
+  {
+    "id": "ejemplo-color",
+    "serviceId": "color",
+    "date": "2026-10-28",
+    "time": "10:00",
+    "customerName": "Reserva de ejemplo",
+    "isExample": true
+  }
+]

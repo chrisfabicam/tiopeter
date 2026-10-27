@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Color, cuidado y estilo personal en Tio Peter AC, Pocitos, Montevideo."
+    />
+    <meta name="theme-color" content="#172d2a" />
+    <title>Tio Peter AC — Tu cabello, en manos expertas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Tio Peter AC, inicio">
+        <span class="brand-mark" aria-hidden="true">TP</span>
+        <span>Tio Peter <span class="brand-light">AC</span></span>
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Abrir menú"
+      >
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+        <a href="#sobre">El salón</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Inspiración</a>
+        <a href="#resenas">Reseñas</a>
+        <a class="nav-cta" href="#agenda">Agendá tu visita</a>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Pocitos · Montevideo</p>
+          <h1 id="hero-title"></h1>
+          <p class="hero-intro" id="hero-subtitle"></p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#agenda">Reservar mi momento <span aria-hidden="true">↗</span></a>
+            <a class="text-link light-link" id="hero-whatsapp" href="#">Hablemos por WhatsApp</a>
+          </div>
+          <p class="hero-note">Un espacio cercano. Una atención hecha para vos.</p>
+        </div>
+        <div class="hero-art" role="img" aria-label="Composición artística en tonos cálidos que representa cuidado capilar">
+          <div class="hero-art-ring"></div>
+          <div class="hero-art-sun"></div>
+          <div class="hero-art-shape"></div>
+          <span class="hero-art-caption">CUIDADO · COLOR · ESTILO</span>
+        </div>
+        <a class="hero-scroll" href="#sobre"><span></span> Descubrí el salón</a>
+      </section>
+
+      <section class="intro section-wrap" id="sobre">
+        <div class="section-kicker">01 / Un poco de nosotros</div>
+        <div class="intro-content">
+          <h2>Tu estilo, con <em>intención.</em></h2>
+          <div>
+            <p class="large-copy">
+              Creemos que sentirte bien con tu pelo empieza por sentirte bien
+              con quien lo cuida.
+            </p>
+            <p>
+              En Tio Peter AC combinamos experiencia, escucha y atención al
+              detalle para crear una experiencia de salón tranquila y personal.
+              Vení por un cambio, quedate por el cuidado.
+            </p>
+            <a class="text-link" href="#agenda">Conocé tu próximo momento <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section-wrap" id="servicios">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">02 / Nuestros servicios</div>
+            <h2>Un cuidado para cada <em>momento.</em></h2>
+          </div>
+          <p>Te asesoramos para encontrar lo mejor para vos y tu cabello.</p>
+        </div>
+        <div class="service-grid" id="service-list"></div>
+      </section>
+
+      <section class="gallery" id="galeria">
+        <div class="section-wrap">
+          <div class="section-heading gallery-heading">
+            <div>
+              <div class="section-kicker">03 / Un espacio para vos</div>
+              <h2>Inspiración para <em>sentirte vos.</em></h2>
+            </div>
+            <a
+              class="text-link"
+              href="https://instagram.com/tiopeterac"
+              target="_blank"
+              rel="noreferrer"
+            >Seguinos en Instagram <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="gallery-grid" aria-label="Inspiración del salón">
+            <article class="gallery-tile gallery-tile-one"><span>COLOR CON LUZ PROPIA</span></article>
+            <article class="gallery-tile gallery-tile-two"><span>DETALLES QUE CUIDAN</span></article>
+            <article class="gallery-tile gallery-tile-three"><span>UN MOMENTO PARA VOS</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews section-wrap" id="resenas">
+        <div class="reviews-copy">
+          <div class="section-kicker">04 / Lo que nos inspira</div>
+          <h2>Tu confianza es nuestra mejor <em>reseña.</em></h2>
+          <p>
+            Estamos preparando este espacio para compartir las opiniones de
+            nuestra comunidad. Mientras tanto, podés ver todas las reseñas en
+            Google.
+          </p>
+          <a
+            class="button button-dark"
+            id="reviews-link"
+            href="https://share.google/R58P6zAcdicFqPdrx"
+            target="_blank"
+            rel="noreferrer"
+          >Ver todas las reseñas en Google <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="review-placeholder" aria-label="Las reseñas de clientes se mostrarán aquí cuando se configure la integración">
+          <div class="quote-mark" aria-hidden="true">“</div>
+          <p>Las experiencias de nuestra comunidad pronto estarán acá.</p>
+          <span>ESPACIO PARA RESEÑAS</span>
+        </div>
+      </section>
+
+      <section class="booking" id="agenda">
+        <div class="section-wrap booking-inner">
+          <div class="booking-intro">
+            <div class="section-kicker">05 / Agenda virtual</div>
+            <h2>Tu próximo momento<br />empieza <em>acá.</em></h2>
+            <p>Elegí tu servicio y encontrá el horario que mejor te quede.</p>
+            <div class="calendar-embed" id="calendar-container">
+              <p>La agenda de Google Calendar se habilitará pronto. Podés reservar con el formulario.</p>
+            </div>
+          </div>
+          <form class="booking-form" id="booking-form">
+            <h3>Reservá tu visita</h3>
+            <label for="service-select">Servicio</label>
+            <select id="service-select" name="service" required>
+              <option value="">Elegí un servicio</option>
+            </select>
+            <div class="form-row">
+              <div>
+                <label for="booking-date">Fecha</label>
+                <input id="booking-date" name="date" type="date" required />
+              </div>
+              <div>
+                <label for="booking-time">Horario disponible</label>
+                <select id="booking-time" name="time" required disabled>
+                  <option value="">Elegí fecha y servicio</option>
+                </select>
+              </div>
+            </div>
+            <label for="customer-name">Tu nombre</label>
+            <input id="customer-name" name="name" autocomplete="name" required />
+            <label for="customer-phone">Tu teléfono</label>
+            <input id="customer-phone" name="phone" type="tel" autocomplete="tel" required />
+            <label for="booking-note">¿Algo que quieras contarnos? <span>(opcional)</span></label>
+            <textarea id="booking-note" name="note" rows="3"></textarea>
+            <button class="button button-dark submit-button" type="submit">Confirmar reserva <span aria-hidden="true">↗</span></button>
+            <p class="form-message" id="booking-message" role="status" aria-live="polite"></p>
+            <p class="form-disclaimer">La reserva quedará guardada en este dispositivo. Confirmala con nosotros por WhatsApp.</p>
+          </form>
+        </div>
+      </section>
+
+      <section class="contact section-wrap" id="contacto">
+        <div class="section-kicker">06 / Hablemos</div>
+        <div class="contact-grid">
+          <div>
+            <h2>¿Tenés una consulta?<br /><em>Estamos para ayudarte.</em></h2>
+            <p>Escribinos y te acompañamos a elegir tu próximo servicio.</p>
+            <a class="button button-dark" id="contact-whatsapp" href="#">Escribir por WhatsApp <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="contact-details">
+            <div><span>VISITANOS</span><p id="contact-address"></p></div>
+            <div><span>ESCRIBINOS</span><p><a id="contact-phone" href="#"></a></p></div>
+            <div><span>HORARIOS</span><p>Lun. a vie. 09:00–19:00<br />Sáb. 10:00–18:00</p></div>
+            <form class="quick-message" id="contact-form">
+              <label for="contact-note">Dejanos tu consulta</label>
+              <div class="quick-message-row">
+                <input id="contact-note" name="message" placeholder="¿En qué podemos ayudarte?" required />
+                <button type="submit" aria-label="Enviar consulta por WhatsApp">↗</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="brand footer-brand" href="#inicio">
+          <span class="brand-mark" aria-hidden="true">TP</span>
+          <span>Tio Peter <span class="brand-light">AC</span></span>
+        </a>
+        <p>Tu cabello, en manos expertas.<br /><span id="footer-location"></span></p>
+        <a class="footer-instagram" href="https://instagram.com/tiopeterac" target="_blank" rel="noreferrer">
+          Instagram <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="footer-year"></span> Tio Peter AC</span>
+        <a href="#inicio">Volver arriba ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
